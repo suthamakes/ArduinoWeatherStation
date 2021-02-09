@@ -9,7 +9,7 @@ The hardware used in this project are:
 + Light Dependent Resistor (LDR)
 ---
 ### DHT Library
-The DHT11 sensor is used for temperature and humidity readings. It uses Adafruit Unified Sensor library which contains DHT.h. It is one of the easy to use libraries and has buitin functions to get and compute values. Methods such as readHumidity() and readTemperature() is used in a DHT object, here 'dht.readHumidity()'. Heat index can also be computed from the DHT library. Adafruit Unified Sensor Library needs to be installed seperately using the built-in library manager in Arduino IDE.
+The DHT11 sensor is used for temperature and humidity readings. It uses Adafruit Unified Sensor library which contains DHT.h. It is one of the easy to use libraries and has buitin functions to get and compute values. Methods such as readHumidity() and readTemperature() is used in a DHT object, here 'dht.readHumidity()'. Heat index can also be computed from the DHT library. Adafruit Unified Sensor Library needs to be installed seperately using the built-in library manager in Arduino IDE. <br>For reference: [DHT Sensor Library in Github](https://github.com/adafruit/DHT-sensor-library)
 
 There is a possibility of getting NaN as sensor reading which stands for Not a Number. This is because the Arduino is not getting the value from sensor. The most likely cause of this problem is due to bad hardware connection. So one must check all the wirings and soldering during the connection. Another logical way to tackle this if it persist is to store the previous reading value and whenever it gives NaN reading we can display that previous value.
 
