@@ -1,5 +1,5 @@
 # MiniWeatherStation
-> Mini Weather Station is an example of a Personal Weather System (PWS). A personal weather station (PWS) is a set of weather measuring instruments operated by a private individual, club, association, or business (where obtaining and distributing weather data is not a part of the entity's business operation). Personal weather stations have become more advanced and can include many different sensors to measure weather conditions.
+> Mini Weather Station is an example of a Personal Weather System (PWS). A personal weather station (PWS) is a set of weather measuring instruments operated by a private individual, club, association, or business (where obtaining and distributing weather data is not a part of the entity's business operation). PWS has become an important device as its network help to get as many data as possible and help in running weather prediction model and forecast system such as **Weather Underground**. Building such PWS is an essential part of learning, research and contribution to citizen science programs for precise weather forecasting systems.
 #### This project is based on the Arduino Microcontroller for reading the sensors and ESP8266 Module for communications.
 The hardware used in this project are:
 + Arduino Microcontroller
