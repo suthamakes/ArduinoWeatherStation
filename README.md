@@ -27,4 +27,3 @@ There is a possibility of getting NaN as sensor reading which stands for Not a N
 	}
 ```
 <br><br>
-For details: <sthapa06407@gmail.com>
